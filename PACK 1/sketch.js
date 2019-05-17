@@ -88,3 +88,5 @@ function mousePressed(){
   
 }
 
+function windowResized(){ resizeCanvas(windowWidth,windowHeigth); }
+
