@@ -18,14 +18,14 @@ function draw() {
     
   
     button = createButton('OpenProcessing');
-    button. size(windowWidth/1, windowHeight/8);
+    button. size(windowWidth/1.50, windowHeight/8);
     button. position(windowWidth/5, windowHeight/3);
 
     button = createButton('Github');
-    button. size(windowWidth/1, windowHeight/8);
+    button. size(windowWidth/1.50, windowHeight/8);
     button. position(windowWidth/5, windowHeight/2);
     button = createButton('Youtube');
-    button. size(windowWidth/1, windowHeight/8);
+    button. size(windowWidth/1.50, windowHeight/8);
     button. position(windowWidth/5, windowHeight/1.5);
 
   posX=posX+dirX;
@@ -89,4 +89,3 @@ function mousePressed(){
 }
 
 function windowResized(){ resizeCanvas(windowWidth,windowHeigth); }
-
