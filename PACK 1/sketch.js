@@ -20,6 +20,7 @@ function draw() {
     button = createButton('OpenProcessing');
     button. size(windowWidth/1.50, windowHeight/8);
     button. position(windowWidth/5, windowHeight/3);
+
     button = createButton('Github');
     button. size(windowWidth/1.50, windowHeight/8);
     button. position(windowWidth/5, windowHeight/2);
@@ -72,20 +73,19 @@ function texto(){
   
 function mousePressed(){
 	 
-  if(mouseX > (width/2-200) && mouseX <(width/2+200) && mouseY> (height - 5.7*(    height/11)-30) && mouseY<(height - 5.7*(height/11)+20) ){
-  
+  if(mouseX > (width/2-200) && mouseX <(width/2+200) && mouseY> (height - 6.7*(    height/11)-30) && mouseY<(height - 6.7*(height/11)+20) ){
+  +
     window.open('https://www.openprocessing.org/user/164013#sketches','openprocessing','_blank');
    }
 	
-  if(mouseX> (width/2-200) && mouseX<(width/2+200) && mouseY> (height - 4.0*(height/11)-30) && mouseY<(height - 4.0*(height/11)+20) ){
+  if(mouseX> (width/2-200) && mouseX<(width/2+200) && mouseY> (height - 5.0*(height/11)-30) && mouseY<(height - 5.0*(height/11)+20) ){
 		window. open('https://github.com/DNCR1','github','_blank');
 	}
 	
-  if(mouseX> (width/2-200) && mouseX<(width/2+200) && mouseY> (height - 2.5*(height/11)-30) && mouseY<(height - (height/11)+20) ){
+  if(mouseX> (width/2-200) && mouseX<(width/2+200) && mouseY> (height - 3.5*(height/11)-30) && mouseY<(height - (height/11)+20) ){
 		window.open('https://www.youtube.com/channel/UCY-Rjyr2lP-nJDyZ08anFPw/featured?view_as=subscriber','youtube','_blank');
      	}
   
 }
 
 function windowResized(){ resizeCanvas(windowWidth,windowHeigth); }
-
